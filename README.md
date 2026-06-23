@@ -1,6 +1,7 @@
 # Diabetes Prediction API using Logistic Regression
 <img src="assests\ChatGPT Image Jun 23, 2026, 11_33_52 PM.png">
-## Overview
+
+<h1>OverView</h1> 
 
 This project is a Machine Learning-based Diabetes Prediction System built using Logistic Regression and deployed using FastAPI.
 
@@ -12,7 +13,7 @@ The API accepts patient information as input and returns:
 * Prediction Probability
 * Health Status Response
 
----
+
 
 ## Features
 
