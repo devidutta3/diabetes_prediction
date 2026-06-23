@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
+import joblib
 # Load cleaned dataset
 df = pd.read_csv(r"data\clean_dataset.csv")
 
@@ -49,3 +50,6 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
+joblib.dump(model,r"models/model.pkl")
+joblib.dump(scaler, r"models/scaler.pkl")
+print("The Model Save Successfully ✅")
