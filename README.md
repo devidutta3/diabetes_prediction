@@ -249,7 +249,7 @@ diabetes-prediction-api/
 
 ## Author
 
-Krishna
+Devidutta Das
 
 B.Tech AI & ML Student
 
